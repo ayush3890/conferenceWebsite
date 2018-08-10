@@ -1,0 +1,12 @@
+.policy {
+    background-color: #fff;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    width: 80%;
+    margin: 0px auto;
+    color: #555555;
+}
+
+.footer .upper {
+    justify-content: space-between;
+}

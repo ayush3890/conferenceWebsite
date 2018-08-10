@@ -1,0 +1,80 @@
+.data {
+    padding: 0.5em 0.2em;
+}
+.conf {
+    width: 100%;
+    padding: 1em 10%;
+    padding-top: 15vh;
+    background-color: #fff;
+    opacity: 0.98;
+    color: #555555;
+}
+
+.conf_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+
+}
+
+.conf_name h2 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.conf_name h4 {
+    font-size: 15px;
+}
+
+.call {
+    display: flex;
+}
+
+.call .callForPaper{
+    width: 60%;
+
+}
+
+.call .confCommittee{
+    width: 40%;
+
+}
+
+.registration p{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.registration p i {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+.importantDates {
+    background-color: unset;
+    height: unset;
+}
+
+.importantDates p {
+    /* margin: 0px; */
+}
+
+.submitPaperBtn {
+    background-color: #c8543b;
+    color: #fafafa;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.submitPaperBtn:hover {
+    color: #fafafa;
+    cursor: pointer;
+    text-decoration: none;
+}
