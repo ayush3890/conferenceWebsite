@@ -43,7 +43,7 @@ a {
 
 .header .banner {
     min-height: 350px;
-    width: 380px;
+    max-width: 380px;
     background-color: rgba(232, 41, 41, 0.8);
     z-index: 5;
     margin: 0px auto;
@@ -89,7 +89,6 @@ a {
     opacity: 0.9;
     padding: 3em 0px;
     color: #555555;
-
 }
 
 .upcomingConference h3 {
@@ -138,7 +137,7 @@ a {
     width: 40%;
 }
 
-.impDates .two div{
+.impDates .two div {
     display: flex;
     flex-direction: column;
 }
@@ -167,7 +166,7 @@ a {
 }
 
 .footer .upper .footerEle1 {
-    width: 32%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -225,7 +224,7 @@ a {
     align-items: center;
     margin-right: 2em;
     text-decoration: none;
-    width: 200px;
+    width: 40%;
 }
 
 .horizontalLink a i {
@@ -254,6 +253,7 @@ a {
     color: gray;
     text-decoration: none;
     outline: none;
+    text-align: center;
 }
 
 .footer hr {
@@ -332,4 +332,60 @@ a {
 
 .conferenceLink {
     width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+    .horizontalLink {
+        flex-direction: column;
+        margin: 0px;
+    }
+    
+    .horizontalLink a {
+        width: 100%;
+        margin: 0.5em 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .horizontalLink a i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .conference {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em 4em;
+        text-align: center;
+        transition: box-shadow 0.1s linear;
+        border-radius: 10px;
+    }
+    .impDates {
+        flex-direction: column;
+    }
+    .impDates .one {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .impDates .two {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .footer .upper {
+        flex-direction: column;
+    }
+    .footer .upper .footerEle1 {
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .conference {
+        padding: 1em 0px;
+    }
 }
