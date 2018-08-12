@@ -32,7 +32,6 @@ a {
     position: fixed !important;
     transition: opacity 0.2s linear;
     z-index: 10;
-    zoom: 200%;
 }
 
 .header {

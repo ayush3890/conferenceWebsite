@@ -71,12 +71,8 @@
     cursor: text;
     margin: 0px;
     text-decoration: none;
-}
-
-.submitPaperBtn:hover {
-    color: #fafafa;
-    cursor: pointer;
-    text-decoration: none;
+    width: fit-content;
+    width: -moz-fit-content;
 }
 
 @media screen and (max-width: 750px) {
