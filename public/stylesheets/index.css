@@ -73,7 +73,7 @@ a {
 
 .smallHeader {
     background-color: #fafafa;
-    padding: 1em 2em;
+    padding: 1em 6em;
     text-align: center;
 }
 
@@ -186,12 +186,15 @@ a {
     align-items: center;
 }
 
-.getEmail input {
+.getEmail #getEmailInput {
     background-color: #e8e8e8;
     border: 0px;
     height: 100%;
-    padding: 5px 8px;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 1em;
 }
 
 .getEmail label {
@@ -386,5 +389,9 @@ a {
 @media screen and (max-width: 500px) {
     .conference {
         padding: 1em 0px;
+    }
+
+    .smallHeader {
+        padding: 1em 1.5em;
     }
 }
