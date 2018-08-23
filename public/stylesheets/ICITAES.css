@@ -40,7 +40,10 @@
 
 .call .confCommittee{
     width: 60%;
+}
 
+.call .confCommittee .name{
+    padding-left: 1em;
 }
 
 .registration p{
