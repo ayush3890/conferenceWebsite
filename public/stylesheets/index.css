@@ -247,6 +247,7 @@ a {
     display: flex;
     align-items: center;
     margin:0px;
+    text-align: center;
 }
 
 .address i {
