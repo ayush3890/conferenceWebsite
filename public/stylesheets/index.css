@@ -74,12 +74,16 @@ a {
 .smallHeader {
     background-color: #fafafa;
     padding: 1em 6em;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .smallHeader .data {
     font-size: 15px;
     line-height: 30px;
+}
+
+.smallHeader .data p{
+    /* text-align: justify; */
 }
 
 .upcomingConference {
