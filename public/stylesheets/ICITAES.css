@@ -31,15 +31,18 @@
 
 .call {
     display: flex;
+    flex-direction: column;
 }
 
-.call .callForPaper{
-    width: 40%;
-
+.callForPaper li{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0.1em;
+    margin-top: 0.4em;
 }
 
 .call .confCommittee{
-    width: 60%;
+    width: 100%;
 }
 
 .call .confCommittee .name{
