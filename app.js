@@ -16,9 +16,9 @@ app.get('/ICITAES', function (req, res) {
     res.render('ICITAES.ejs');
 });
 
-app.get('/ICRRM', function (req, res) {
-    res.render('ICRRM.ejs');
-});
+// app.get('/ICRRM', function (req, res) {
+//     res.render('ICRRM.ejs');
+// });
 
 app.get('/advisorycommittee', function (req, res) {
     res.render('advisoryCommittee.ejs');
