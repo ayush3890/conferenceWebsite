@@ -82,7 +82,7 @@ a {
     line-height: 30px;
 }
 
-.smallHeader .data p{
+.smallHeader .data p {
     /* text-align: justify; */
 }
 
@@ -345,14 +345,12 @@ a {
         flex-direction: column;
         margin: 0px;
     }
-    
     .horizontalLink a {
         width: 100%;
         margin: 0.5em 0px;
         display: flex;
         justify-content: center;
     }
-
     .horizontalLink a i {
         display: none;
     }
@@ -394,8 +392,19 @@ a {
     .conference {
         padding: 1em 0px;
     }
-
     .smallHeader {
         padding: 1em 1.5em;
+    }
+    .getEmail {
+        height: 50px;
+    }
+
+    .getEmail #getEmailInput {
+        height: 50px;
+    }
+    
+    .getEmail label {
+        padding: 0em 1em;
+        height: 50px;
     }
 }
