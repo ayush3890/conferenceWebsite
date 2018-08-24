@@ -7,6 +7,10 @@
     color: #555555;
 }
 
+.policy li {
+    text-align: justify;
+}
+
 .footer .upper {
     justify-content: space-between;
 }

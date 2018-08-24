@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    /* text-align: justify; */
+}
+
 :focus {
     outline: none;
 }
@@ -83,7 +87,7 @@ a {
 }
 
 .smallHeader .data p {
-    /* text-align: justify; */
+    text-align: justify;
 }
 
 .upcomingConference {
