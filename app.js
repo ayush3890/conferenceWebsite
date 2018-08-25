@@ -20,14 +20,14 @@ app.get('/ICITAES', function (req, res) {
 //     res.render('ICRRM.ejs');
 // });
 
-app.get('/advisorycommittee', function (req, res) {
-    res.render('advisoryCommittee.ejs');
-});
+// app.get('/advisorycommittee', function (req, res) {
+//     res.render('advisoryCommittee.ejs');
+// });
 
 
-app.get('/technicalcommittee', function (req, res) {
-    res.render('technicalCommittee.ejs');
-});
+// app.get('/technicalcommittee', function (req, res) {
+//     res.render('technicalCommittee.ejs');
+// });
 
 
 app.listen(process.env.PORT || "3000", function () {
