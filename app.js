@@ -15,6 +15,10 @@ app.get('/ICITAES', function (req, res) {
     res.render('ICITAES.ejs');
 });
 
+app.get('/UGC_Journals', function (req, res) {
+    res.render('UGC_journals.ejs');
+});
+
 // app.get('/ICRRM', function (req, res) {
 //     res.render('ICRRM.ejs');
 // });
